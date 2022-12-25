@@ -15,7 +15,7 @@ public class whileCondition {
 		Scanner SC = new Scanner(System.in);
 
 		school scl = new school();
-
+// arrayListDepartment
 		ArrayList<Department> departmentArray = new ArrayList<Department>();
 
 		while (condition) {
