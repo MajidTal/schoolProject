@@ -11,6 +11,7 @@ public class whileCondition {
 		boolean condation1 = true;
 		boolean condation2 = true;
 
+		 // to let the user insert the values 
 		Scanner SC = new Scanner(System.in);
 
 		school scl = new school();
