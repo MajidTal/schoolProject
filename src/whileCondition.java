@@ -46,6 +46,7 @@ public class whileCondition {
 
 					System.out.println("Enter the age of teacher");
 					te.setteAge(SC.nextInt());
+					//condition 2 to enter student details
 
 					while (condation2) {
 						Student st = new Student();
