@@ -24,6 +24,7 @@ public class whileCondition {
 			System.out.println("press 2 to exit the page");
 			System.out.println("press 3 to print the results ");
 			int input = SC.nextInt();
+			
 			if (input == 1) {
 				Department de = new Department();
 
@@ -33,6 +34,8 @@ public class whileCondition {
 
 				String nameString = SC.next();
 				de.setNameOfDepartment(nameString);
+
+				//condition 1 to enter teacher details
 
 				condation1 = true;
 
