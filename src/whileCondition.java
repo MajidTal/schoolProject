@@ -19,7 +19,7 @@ public class whileCondition {
 		ArrayList<Department> departmentArray = new ArrayList<Department>();
 
 		while (condition) {
-
+//each number in this condition will do something
 			System.out.println("press 1 to join the page");
 			System.out.println("press 2 to exit the page");
 			System.out.println("press 3 to print the results ");
