@@ -4,8 +4,6 @@ public class school {
 	private String name1;
 	private int ageOfSchool;
 
-	Department te = new Department();
-
 	public String getName() {
 		return name1;
 	}

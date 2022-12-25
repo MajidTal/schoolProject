@@ -7,6 +7,7 @@ public class whileCondition {
 
 	public static void main(String[] args) {
 
+	
 		boolean condition = true;
 		boolean condation1 = true;
 		boolean condation2 = true;
@@ -14,7 +15,6 @@ public class whileCondition {
 		 // to let the user insert the values 
 		Scanner SC = new Scanner(System.in);
 
-		school scl = new school();
 // arrayListDepartment
 		ArrayList<Department> departmentArray = new ArrayList<Department>();
 
@@ -26,7 +26,9 @@ public class whileCondition {
 			int input = SC.nextInt();
 			
 			if (input == 1) {
-				Department de = new Department();
+				
+				//This is the frist constract//
+				Department de = new Department("DB", 20);
 
 				System.out.println("Enter the Department ID");
 				de.setIdOfDepartment(SC.nextInt());

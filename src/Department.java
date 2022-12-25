@@ -3,7 +3,13 @@ package src;
 import java.util.ArrayList;
 
 public class Department {
-
+	
+	
+	Department(String name , int size)
+	{
+		System.out.println("hi there" +name +  " "+size);
+	}
+	
 	String depName;
 	int depId;
 
